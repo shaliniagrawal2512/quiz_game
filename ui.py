@@ -1,5 +1,3 @@
-from cgitb import text
-import time
 from tkinter import *
 from quiz_brain import QuizBrain
 THEME_COLOR = "#375362"
@@ -49,5 +47,5 @@ class GUI:
             self.canvas.config(bg="green")
         else:
             self.canvas.config(bg="red")
-        self.window.after(1000, self.display_question)
+        self.window.after(2000, self.display_question)
         
